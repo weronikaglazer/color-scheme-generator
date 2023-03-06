@@ -1,0 +1,98 @@
+body {
+    background-color: #FFFBF6;
+    text-align: center;
+    padding: 20px;
+    font-family:'Gloock', serif
+}
+
+h1 { 
+    font-size: 45px;
+    letter-spacing: 2px;
+}
+
+/* menu section */
+
+.menu-container {
+    width: 670px;
+    height: 60px;
+    padding: 16px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+select {
+    width: 300px;
+    height: 50px;
+    padding: 8px 5px;
+    border: 1px solid rgb(213, 213, 213);
+    border-radius: 5px;
+    margin-right: 20px;
+    font-size: 18px;
+    font-family:'Gloock', serif;
+}
+
+#color-input {
+    appearance: none;
+    width: 70px;
+    height: 45px;
+    margin: 0 20px 0 0;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+}
+
+#color-input::-webkit-color-swatch {
+    border-radius: 15px;
+    border: none;
+    margin: 0;
+}
+
+#get-color-btn {
+    padding: 8px 5px;
+    border: 1px solid rgb(213, 213, 213);
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+    font-size: 13px;
+    font-family:'Gloock', serif
+}
+#get-color-btn:hover {
+    border: 1px black solid;
+    font-weight: bold;
+}
+
+/* colors section */
+
+.colors-container {
+    height: 450px;
+    width: 700px;
+    margin: 0 auto;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+#color {
+    width: 100%;
+    height: 85%;
+}
+
+.color-slot {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#copy-btn {
+    font-family:'Gloock', serif;
+    background-color: transparent;
+    border: none;
+    font-size: 1.2rem;
+    margin: 10px 0;
+    width: 100%;
+    cursor: pointer;
+}
+
+#copy-btn:hover { font-size: 1.3rem }
+#copy-btn:active { font-size: 1.4rem }
+
